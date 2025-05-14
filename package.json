@@ -1,0 +1,20 @@
+{
+  "name": "voice-to-contract-v2c",
+  "version": "1.0.0",
+  "description": "Voice-to-Contract module for Speech AI enabling natural language interaction with smart contracts.",
+  "main": "src/main.ts",
+  "scripts": {
+    "start": "ts-node src/main.ts",
+    "build": "tsc"
+  },
+  "keywords": ["web3", "ethers", "speech-ai", "voice-control", "smart-contracts"],
+  "author": "Speech AI Labs",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^6.6.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
